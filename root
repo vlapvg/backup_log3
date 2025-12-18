@@ -25,4 +25,4 @@
 # 
 # m h  dom mon dow   command
 
-*/5 * * * * /usr/local/bin/mysqldamp.sh > /dev/null 2>&1
+*/5 * * * * /home/vlap/backup_log3/./mysqldamp.sh > /dev/null 2>&1
