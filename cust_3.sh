@@ -9,4 +9,4 @@ systemctl stop apache2; systemctl start nginx;
 \cp logstash.yml /etc/logstash; cp logstash-nginx-es.conf /etc/logstash/conf.d; systemctl restart logstash.service; 
 \cp filebeat.yml /etc/filebeat; systemctl restart filebeat; 
 \cp mysqld.cnf /etc/mysql/mysql.conf.d; service mysql restart; 
-\cp mysqldamp.sh /usr/local/bin; cp root /var/spool/cron/crontabs; ./script_replica.sh
+\cp mysqldamp.sh /usr/local/bin; cp root /home/vlap/backup_log3/./mysqldamp.sh; ./script_replica.sh
